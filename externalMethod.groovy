@@ -1,4 +1,4 @@
-// If there's a call method, you can just load the file, say, as "foo", and then invoke that call method with foo(...) 
-def call(String whoAreYou) {
-    echo "Now we're being called more magically, ${whoAreYou}, thanks to the call(...) method."
+// Methods in this file will end up as object methods on the object that load returns.
+def lookAtThis(String whoAreYou) {
+    echo "Look at this, ${whoAreYou}! You loaded this from another file!"
 }
