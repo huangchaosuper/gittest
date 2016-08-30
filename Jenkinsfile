@@ -1,3 +1,5 @@
+env.JOB_BASE_NAME = $JOB_BASE_NAME
+env.JOB_NAME = $JOB_NAME
 node {
    stage 'Stage 1'
    sh 'pwd'
