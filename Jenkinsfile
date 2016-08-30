@@ -1,6 +1,6 @@
 node {
    stage 'Stage 1'
-   sh pwd
+   sh 'pwd'
    stage 'Stage 2'
    pwd()
    stage 'Stage 3'
